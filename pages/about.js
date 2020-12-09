@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Pagehead from '../components/PageHead'
 
 
-const Home = () => (
+const About = () => (
 
     <Layout>
       <Head>
@@ -12,9 +12,9 @@ const Home = () => (
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       </Head>
       <main>
-        <Pagehead title="Home"/>
+        <Pagehead title="About"/>
       </main>
     </Layout>
 );
 
-export default Home;
+export default About;
